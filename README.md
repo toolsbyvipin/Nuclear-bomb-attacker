@@ -1,6 +1,10 @@
 # NuclearBomb Attacker
 
- NuclearBomb Attacker is a CMD command for attacking victim's Computer
+ NuclearBomb Attacker is a CMD command for attacking victim's Computer.
+ It will open each files , applications , websites , portals in every seconds at the same time.
+ Laptop/Pc starts to lag and you have 1000 of files , applications , websites execute on OS in only 30 - 40 seconds.
+ 
+ ⚠️ Try at your own risk
 
 
 # Medium level attack  Command
